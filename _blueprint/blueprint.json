@@ -10,16 +10,6 @@
 			"step": "installPlugin",
 			"pluginData": {
 				"resource": "wordpress.org/plugins",
-				"slug": "gutenberg"
-			},
-			"options": {
-				"activate": true
-			}
-		},
-		{
-			"step": "installPlugin",
-			"pluginData": {
-				"resource": "wordpress.org/plugins",
 				"slug": "create-block-theme"
 			},
 			"options": {
@@ -29,8 +19,8 @@
 		{
 				"step": "updateUserMeta",
 				"meta": {
-					"first_name": "Birgit",
-					"last_name": "Pauli-Haack",
+					"first_name": "Ivan",
+					"last_name": "M.",
 					"admin_color": "modern"
 				},
 				"userId": 1
