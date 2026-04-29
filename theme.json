@@ -513,7 +513,6 @@
 		"color": {
 			"background": "#ffffff"
 		},
-		"css": ":root :where(.wp-block-post-title a:focus:where(:not(.wp-element-button))) {\n  color: var(--wp--preset--color--accent-2) !important;\n  text-decoration: none;\n    text-decoration-thickness: auto;\n}",
 		"elements": {
 			"button": {
 				":hover": {
