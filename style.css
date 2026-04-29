@@ -15,3 +15,18 @@ Text Domain: bloom
 Tags: 
 */
 
+.wp-block-post-title a:focus {
+  text-decoration: underline;
+  -webkit-transition: all 0.08s ease-in;
+  transition: all 0.08s ease-in;
+}
+
+a:focus {
+  background-color: var(--wp--preset--color--accent-1);
+  outline: 3px solid var(--wp--preset--color--accent-1);
+}
+
+.wp-block-navigation .wp-block-navigation-item .wp-block-navigation-item__content {
+  outline-offset: 0 !important;
+  background-color: transparent;
+}
